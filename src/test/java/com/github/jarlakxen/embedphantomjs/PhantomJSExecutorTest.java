@@ -42,7 +42,7 @@ public class PhantomJSExecutorTest {
 	
     private static String DEFAULT_CONSOLE_BOOTSTRAP = "var system = require('system');";
     
-	private static String DEFAULT_CONSOLE_JS = "system.stdout.writeLine('TEST1');";
+	private static String DEFAULT_CONSOLE_JS = "console.log('TEST1');";
 			
     private static File test1 = new File(System.getProperty("java.io.tmpdir") + "/embedphantomjs.test1.js");
 

@@ -1,7 +1,7 @@
 embedphantomjs
 ==============
 
-Embedded PhantomJS for Java
+Embedded PhantomJS for Java (form from https://github.com/Jarlakxen/embedphantomjs)
 
 This project provides an easy interface for execute PhantomJS with Java.
 
@@ -12,6 +12,8 @@ This project provides an easy interface for execute PhantomJS with Java.
 
 ### Maven
 
+///--- The changes (for support with version 1.9.8) are not available in OSS Sonatype)
+
 Stable [OSS Sonatype](https://oss.sonatype.org/content/repositories/releases/com/github/jarlakxen/embedphantomjs/maven-metadata.xml)
 
 	<dependency>
@@ -21,6 +23,8 @@ Stable [OSS Sonatype](https://oss.sonatype.org/content/repositories/releases/com
 	</dependency>
 
 ### Changelog
+
+- Added support for version 1.9.8
 
 2.8
 - Better windows support ( Thanks to @Dmitry-Shweikus )

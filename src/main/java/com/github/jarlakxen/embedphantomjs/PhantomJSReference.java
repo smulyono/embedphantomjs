@@ -56,11 +56,13 @@ public class PhantomJSReference {
 	 * 
 	 */
 	public static class PhantomJSReferenceBuilder {
-		private Version version = Version.v_1_9_2;
+		private Version version = Version.v_1_9_8;
 		private String architecture = System.getProperty("os.arch").toLowerCase();
 		private String hostOs;
 
-		private String downloadUrl = "http://phantomjs.googlecode.com/files/";
+//		private String downloadUrl = "http://phantomjs.googlecode.com/files/";
+		// New download location
+		private String downloadUrl = "https://bitbucket.org/ariya/phantomjs/downloads/";
 		private String targetInstallationFolder = System.getProperty("user.home") + "/.embedphantomjs";
 
 		public PhantomJSReferenceBuilder withVersion(Version version) {
